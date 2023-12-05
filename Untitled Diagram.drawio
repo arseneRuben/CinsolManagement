@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T20:22:45.280Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IMF3MdHNTITRcKGo2nti" version="22.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-05T20:38:41.495Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VJzbHF9Rq5XVjju2hEE2" version="22.1.5" type="github" pages="4">
   <diagram name="class diagram" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="880" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -656,6 +656,15 @@
         </mxCell>
         <mxCell id="sBZByWPLvtDKiVxh0vME-67" value="extend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1XKVSw8Y28STlejoI6x1-2" value="Generer un rapport de vente." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1XKVSw8Y28STlejoI6x1-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1XKVSw8Y28STlejoI6x1-2" target="sBZByWPLvtDKiVxh0vME-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="530" as="sourcePoint" />
+            <mxPoint x="130" y="480" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
