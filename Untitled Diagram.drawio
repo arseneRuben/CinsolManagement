@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T08:18:21.064Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="zj_Gqzk0qfgHlSo-mC3d" version="22.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-06T15:52:02.419Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="43EGdkkcS5OqUNtdSHdu" version="22.1.5" type="github" pages="6">
   <diagram name="class diagram" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="880" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -674,6 +674,54 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <object label="Infirmier" id="guKfUWBVXSUAhwtXOms7-1">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="90" y="150" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Pharmacien" id="guKfUWBVXSUAhwtXOms7-3">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="130" y="400" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Proprietaire&lt;br&gt;" id="guKfUWBVXSUAhwtXOms7-4">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="90" y="690" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="guKfUWBVXSUAhwtXOms7-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="guKfUWBVXSUAhwtXOms7-4" target="guKfUWBVXSUAhwtXOms7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="650" as="sourcePoint" />
+            <mxPoint x="180" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guKfUWBVXSUAhwtXOms7-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="guKfUWBVXSUAhwtXOms7-4" target="guKfUWBVXSUAhwtXOms7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="560" as="sourcePoint" />
+            <mxPoint x="230" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guKfUWBVXSUAhwtXOms7-7" value="Offrir un service" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="guKfUWBVXSUAhwtXOms7-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="guKfUWBVXSUAhwtXOms7-1" target="guKfUWBVXSUAhwtXOms7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="230" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oXOuJdA4a-BseJ1atZ5p-2" value="&lt;div&gt;1. Urgences&lt;/div&gt;&lt;div&gt;2. Consultations médicales&lt;/div&gt;&lt;div&gt;3. Chirurgie&lt;/div&gt;&lt;div&gt;4. Soins intensifs et unités spécialisées&lt;/div&gt;&lt;div&gt;5. Radiologie et imagerie médicale&lt;/div&gt;&lt;div&gt;6. Laboratoire médical&lt;/div&gt;&lt;div&gt;7. Maternité et obstétrique&lt;/div&gt;&lt;div&gt;8. Pédiatrie&lt;/div&gt;&lt;div&gt;9. Soins palliatifs&lt;/div&gt;&lt;div&gt;10. Psychiatrie et santé mentale&lt;/div&gt;&lt;div&gt;11. Rééducation et kinésithérapie&lt;/div&gt;&lt;div&gt;12. Pharmacie hospitalière&lt;/div&gt;&lt;div&gt;13. Services sociaux et assistance&lt;/div&gt;&lt;div&gt;14. Restauration et services alimentaires&lt;/div&gt;&lt;div&gt;15. Services d&#39;accueil et d&#39;administratio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="60" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="oXOuJdA4a-BseJ1atZ5p-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oXOuJdA4a-BseJ1atZ5p-2" target="guKfUWBVXSUAhwtXOms7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="120" as="sourcePoint" />
+            <mxPoint x="460.71067811865476" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oXOuJdA4a-BseJ1atZ5p-4" value="Offrir un produits" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
